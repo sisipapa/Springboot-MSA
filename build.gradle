@@ -1,5 +1,5 @@
 plugins {
-    id 'org.springframework.boot' version '2.1.4.RELEASE'
+    id 'org.springframework.boot' version '2.5.3'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
 }
@@ -18,7 +18,7 @@ subprojects {
     }
 
     ext {
-        set('springCloudVersion', "Greenwich.SR1")
+        set('springCloudVersion', "2020.0.3")
     }
 
     dependencies {
