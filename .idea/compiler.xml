@@ -11,6 +11,7 @@
         <module name="msa.Eureka.main" />
         <module name="msa.Config.main" />
         <module name="msa.Gateway.main" />
+        <module name="msa.Resource2.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,6 +32,8 @@
       <module name="msa.Service-Member.test" target="11" />
       <module name="Resource.main" target="11" />
       <module name="Resource.test" target="11" />
+      <module name="Resource2.main" target="11" />
+      <module name="Resource2.test" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

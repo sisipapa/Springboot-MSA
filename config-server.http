@@ -1,4 +1,8 @@
-GET http://localhost:9000/member-service/local
+GET http://localhost:9000/resource/local
 Accept: application/json
 
 ###
+
+
+GET http://localhost:9000/resource2/local
+Accept: application/json
