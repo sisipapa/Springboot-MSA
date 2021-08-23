@@ -1,0 +1,8 @@
+rootProject.name = 'msa'
+
+include 'Config'
+include 'Gateway'
+include 'Eureka'
+include 'Resource'
+//include 'Service-Contents'
+///include 'Service-Member'
