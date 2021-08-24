@@ -1,9 +1,9 @@
-GET http://localhost:9000/resource/prod
+GET http://localhost:9000/resource/local
 Accept: application/json
 
 ###
 
-GET http://localhost:9000/resource2/prod
+GET http://localhost:9000/resource2/local
 Accept: application/json
 
 ###
