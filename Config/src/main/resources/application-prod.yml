@@ -12,4 +12,4 @@ spring:
         git:
           #uri: https://github.com/sisipapa/Springboot-MSA-Config
           uri: https://github.com/sisipapa/Springboot-MSA
-          search-paths: config-repo/local
+          search-paths: config-repo/prod

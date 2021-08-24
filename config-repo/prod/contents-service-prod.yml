@@ -1,8 +1,6 @@
 spring:
-  profiles: alpha
-  message: Hello Spring ContentsService Alpha Server!!!!!
-spring:
-  profiles: local
+  profiles: prod
+  message: Hello Spring ContentsService prod Server!!!!!
 eureka:
   client:
     enabled: true
