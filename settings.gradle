@@ -5,3 +5,5 @@ include 'Gateway'
 include 'Eureka'
 include 'Resource'
 include 'Resource2'
+include 'config-repo'
+

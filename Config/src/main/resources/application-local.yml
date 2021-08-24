@@ -1,18 +1,15 @@
 # bootstrap-local.yml 로컬 환경설정 파일
+server:
+  port: 9000
 spring:
-  profile: native
+  application:
+    name: configServer
   cloud:
     config:
       server:
-        native: # 서버 실행시 profile 설정시 native를 지정해야 적용됩니다.
-          search-locations: file:///C:/Users/user/server-configs # window - C:\Users\계정명\server-configs
-#        git:
-#          uri: file:///C:/Users/user/server-configs
-management:
-  endpoints:
-    web:
-      exposure:
-        include: info, refresh
-  endpoint:
-    shutdown:
-      enabled: true
+#        native: # 서버 실행시 profile 설정시 native를 지정해야 적용됩니다.
+#          search-locations: file:///C:/Users/user/server-configs # window - C:\Users\계정명\server-configs
+        git:
+          #uri: https://github.com/sisipapa/Springboot-MSA-Config
+          uri: https://github.com/sisipapa/Springboot-MSA
+          search-paths: config-repo

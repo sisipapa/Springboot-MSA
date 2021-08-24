@@ -3,6 +3,17 @@ Accept: application/json
 
 ###
 
-
 GET http://localhost:9000/resource2/local
 Accept: application/json
+
+###
+
+GET http://localhost:8080/message
+Accept: application/json
+
+###
+
+GET http://localhost:8081/message
+Accept: application/json
+
+###
