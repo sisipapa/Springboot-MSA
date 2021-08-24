@@ -27,3 +27,15 @@ POST http://localhost:8081/actuator/refresh
 Accept: application/json
 
 ###
+
+POST http://localhost:9000/encrypt
+Content-Type: application/x-www-form-urlencoded
+
+password
+
+###
+
+GET http://localhost:8080/password
+Accept: application/json
+
+###

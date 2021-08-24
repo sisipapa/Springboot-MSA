@@ -1,3 +1,5 @@
 spring:
   profiles: local
   message: Resource Service Local Server!!!!!=>수정1
+user:
+  password: '{cipher}AQBuakxOR/KECF24GlWO8wQQOMIRqtGykILjfb40Uksa/2jDK8A3hmD0hYaOd9nRico2GnsFVqN/W0pjPfDU8Ug3tGGJp/rWVziuFviaZVP0Pr4fO6pZdqd2hLxxybSEq/Nl/53uLF04rcmsq9Ky3TZ/pB2znLw0V+Ztw5AOlG+awJFAFY7Ohim6vAAiPdmUk66hFPjxqurQDAihQIGyVOp22Z/f8pKpWDWcFhLID6g8pVbMSM41fZdG8GUSLXCCLOv2LdOUEH94AGbWsJ/zxZEGV8K89xt7LAbgWi45psGvC7xmB/4Liyeqp7bBW8iztsN/dgAKrS7hjUwgVZ5Ky1xnUyAfCNfm8FNhg8EhIXNT0Fu/d6RHGvlwhGB+YBuH2fc='

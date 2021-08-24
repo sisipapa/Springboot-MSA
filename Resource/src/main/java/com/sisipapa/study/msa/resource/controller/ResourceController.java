@@ -12,8 +12,14 @@ public class ResourceController {
     @Value("${spring.message}")
     private String message;
 
+    @Value("${user.password}")
+    private String password;
+
     @GetMapping("/message")
     public String message() {
         return "ResourceController message : " + message;
     }
+
+    @GetMapping("/password")
+    public String password() {return "ResourceController password : " + password;}
 }
