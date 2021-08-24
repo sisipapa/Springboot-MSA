@@ -1,6 +1,6 @@
 spring:
   profiles: prod
-  message: Resource Service prod Server -> modify1
+  message: Resource Service prod Server -> modify2
 management:
   endpoints:
     web:
