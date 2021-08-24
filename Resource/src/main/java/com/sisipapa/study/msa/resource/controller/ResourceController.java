@@ -12,7 +12,16 @@ public class ResourceController {
     @Value("${spring.message}")
     private String message;
 
-    @Value("${user.password}")
+    @Value("${db.ip}")
+    private String ip;
+
+    @Value("${db.port}")
+    private String port;
+
+    @Value("${db.id}")
+    private String id;
+
+    @Value("${db.password}")
     private String password;
 
     @GetMapping("/message")
@@ -20,6 +29,6 @@ public class ResourceController {
         return "ResourceController message : " + message;
     }
 
-    @GetMapping("/password")
-    public String password() {return "ResourceController password : " + password;}
+    @GetMapping("/db")
+    public String db() {return "ResourceController db : " + ip + ":" + port + " [" + id +" : " + password + "]";}
 }
