@@ -1,8 +1,3 @@
 spring:
   profiles: prod
-  message: Resource Service prod -> 수정2
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "refresh"
+  message: Resource Service prod -> 수정3

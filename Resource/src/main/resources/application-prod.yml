@@ -5,11 +5,11 @@ spring:
     name: resource
   config:
     import: "optional:configserver:http://localhost:9000"
-  management:
-    endpoints:
-      web:
-        exposure:
-          include: info, refresh
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, refresh
 
 
 #  cloud:
