@@ -8,27 +8,7 @@ Accept: application/json
 
 ###
 
-GET http://localhost:9000/zuul-gateway/local
-Accept: application/json
-
-###
-
-GET http://localhost:8080/v1/resource/message
-Accept: application/json
-
-###
-
-GET http://localhost:8081/v1/resource2/message
-Accept: application/json
-
-###
-
-POST http://localhost:8080/actuator/refresh
-Accept: application/json
-
-###
-
-POST http://localhost:8081/actuator/refresh
+GET http://localhost:9000/gateway/local
 Accept: application/json
 
 ###
@@ -40,7 +20,47 @@ dbpass
 
 ###
 
+
+
+
+GET http://localhost:8080/v1/resource/message
+Accept: application/json
+
+###
+
+POST http://localhost:8080/actuator/refresh
+Accept: application/json
+
+###
+
 GET http://localhost:8080/v1/resource/db
 Accept: application/json
 
 ###
+
+GET http://localhost:8081/v1/resource2/message
+Accept: application/json
+
+###
+
+POST http://localhost:8081/actuator/refresh
+Accept: application/json
+
+###
+
+GET http://localhost:9100/v1/member/health
+Accept: application/json
+
+###
+
+GET http://localhost:9100/v1/pay/health
+Accept: application/json
+
+###
+
+GET http://localhost:9100/v1/product/health
+Accept: application/json
+
+###
+
+

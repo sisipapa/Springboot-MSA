@@ -12,10 +12,10 @@ spring:
         git:
           uri: https://github.com/sisipapa/Springboot-MSA
           search-paths: config-repo/local
-encrypt:
-  key-store:
-    location: classpath:/config-server.jks
-    alias: config-server-key
-    password: pass123
-    type: jks
-    secret: pass123
+#encrypt:
+#  key-store:
+#    location: classpath:/config-server.jks
+#    alias: config-server-key
+#    password: pass123
+#    type: jks
+#    secret: pass123

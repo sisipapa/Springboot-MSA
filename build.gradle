@@ -1,5 +1,5 @@
 plugins {
-    id 'org.springframework.boot' version '2.5.3'
+    id 'org.springframework.boot' version '2.1.4.RELEASE'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
 }
@@ -18,7 +18,7 @@ subprojects {
     }
 
     ext {
-        set('springCloudVersion', "2020.0.3")
+        set('springCloudVersion', "Greenwich.SR6")
     }
 
     dependencies {
@@ -48,7 +48,7 @@ project(':Config') {
 
 project(':Gateway') {
     dependencies {
-        implementation 'org.springframework.cloud:spring-cloud-starter-netflix-zuul:2.2.9.RELEASE'
+        implementation 'org.springframework.cloud:spring-cloud-starter-netflix-zuul'
         implementation 'org.springframework.cloud:spring-cloud-starter-config'
 //        implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
     }
