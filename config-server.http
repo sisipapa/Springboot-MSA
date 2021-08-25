@@ -8,12 +8,17 @@ Accept: application/json
 
 ###
 
-GET http://localhost:8080/message
+GET http://localhost:9000/zuul-gateway/local
 Accept: application/json
 
 ###
 
-GET http://localhost:8081/message
+GET http://localhost:8080/v1/resource/message
+Accept: application/json
+
+###
+
+GET http://localhost:8081/v1/resource2/message
 Accept: application/json
 
 ###
@@ -35,7 +40,7 @@ dbpass
 
 ###
 
-GET http://localhost:8080/db
+GET http://localhost:8080/v1/resource/db
 Accept: application/json
 
 ###

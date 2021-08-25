@@ -1,5 +1,5 @@
 spring:
-  profiles: alpha
+  profiles: prod
 zuul:
   routes:
     member:
