@@ -1,4 +1,4 @@
-# local
+#prod
 server:
   port: 9000
 spring:
@@ -11,11 +11,10 @@ spring:
 #          search-locations: file:///C:/Users/user/server-configs # window - C:\Users\계정명\server-configs
         git:
           uri: https://github.com/sisipapa/Springboot-MSA
-          search-paths: config-repo/local
-#encrypt:
-#  key-store:
-#    location: classpath:/config-server.jks
-#    alias: config-server-key
-#    password: pass123
-#    type: jks
-#    secret: pass123
+          search-paths: config-repo/prod
+encrypt:
+  key-store:
+    location: classpath:/config-server.jks
+    alias: config-server-key
+    password: pass123
+    secret: pass123

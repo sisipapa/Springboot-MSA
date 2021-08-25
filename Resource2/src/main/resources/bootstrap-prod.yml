@@ -1,10 +1,11 @@
 server:
-  port: 8080
+  port: 8081
 spring:
   application:
-    name: resource
-  config:
-    import: "optional:configserver:http://localhost:9000"
+    name: resource2
+  cloud:
+    config:
+      uri: http://localhost:9000
 management:
   endpoints:
     web:

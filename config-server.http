@@ -16,7 +16,7 @@ Accept: application/json
 POST http://localhost:9000/encrypt
 Content-Type: application/x-www-form-urlencoded
 
-dbpass
+10.10.10.10
 
 ###
 
