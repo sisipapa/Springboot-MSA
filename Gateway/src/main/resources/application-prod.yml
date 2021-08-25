@@ -1,0 +1,21 @@
+server:
+  port: 9100
+spring:
+  application:
+    name: gateway
+  config:
+    import: "optional:configserver:http://localhost:9000"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
+
+#  cloud:
+#    config:
+#      uri: http://localhost:9000
+#      fail-fast: true
+#      discovery:
+#        service-id: config-service
+#        enabled: true
