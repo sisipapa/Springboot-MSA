@@ -15,7 +15,7 @@ zuul:
       path: /v1/member/**
       #url: http://localhost:8080
       serviceId: resource
-    resource:
+    db:
       stripPrefix: false
       path: /v1/resource/**
       #url: http://localhost:8080
