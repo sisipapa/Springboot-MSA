@@ -73,7 +73,7 @@ Accept: application/json
 
 ###
 
-GET http://localhost:9100/v1/resource/message
+GET http://localhost:9100/v1/resource2/message
 Accept: application/json
 
 ###

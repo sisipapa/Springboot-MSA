@@ -14,8 +14,11 @@ public class Resource2Controller {
     @Value("${spring.message}")
     private String message;
 
+    @Value("${server.port}")
+    private String port;
+
     @GetMapping("/message")
     public String message() {
-        return "Resource2Controller message : " + message;
+        return "Resource2Controller message : " + message + " | port : " + port;
     }
 }
