@@ -18,3 +18,11 @@ encrypt:
     alias: config-server-key
     password: pass123
     secret: pass123
+eureka:
+  client:
+    registryFetchIntervalSeconds: 5
+    enabled: true
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: true

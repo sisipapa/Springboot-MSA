@@ -63,4 +63,19 @@ Accept: application/json
 
 ###
 
+POST http://localhost:9100/actuator/refresh
+Accept: application/json
+
+###
+
+GET http://localhost:9100/v1/resource/db
+Accept: application/json
+
+###
+
+GET http://localhost:9100/v1/resource/message
+Accept: application/json
+
+###
+
 
