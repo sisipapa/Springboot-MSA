@@ -5,6 +5,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
@@ -74,7 +75,7 @@ public class Oauth2AuthorizationConfig extends AuthorizationServerConfigurerAdap
      */
     @Bean
     public JwtAccessTokenConverter jwtAccessTokenConverter() {
-        KeyStoreKeyFactory keyStoreKeyFactory = new KeyStoreKeyFactory(new FileSystemResource("src/main/resources/oauth2jwt.jks"), "oauth2jwtpass".toCharArray());
+        KeyStoreKeyFactory keyStoreKeyFactory = new KeyStoreKeyFactory(new ClassPathResource("oauth2jwt.jks"), "oauth2jwtpass".toCharArray());
         JwtAccessTokenConverter converter = new JwtAccessTokenConverter();
         converter.setKeyPair(keyStoreKeyFactory.getKeyPair("oauth2jwt"));
         return converter;

@@ -77,3 +77,19 @@ Accept: application/json
 ###
 
 
+GET http://localhost:8081/oauth/authorize?client_id=testClientId&redirect_uri=http://localhost:8081/oauth2/callback&response_type=code&scope=read
+Accept: application/json
+
+###
+
+
+GET http://localhost:9100/v1/member/health
+#Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MzAxODg0NDQsInVzZXJfbmFtZSI6InNpc2lwYXBhMjM5QGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJqdGkiOiJiOWMyNTE3Ni03MzczLTRjN2YtYjQ4NC0zNjM5NjRhNmFhZDQiLCJjbGllbnRfaWQiOiJ0ZXN0Q2xpZW50SWQiLCJzY29wZSI6WyJyZWFkIl19.hCWbWLJGlM4SFzy3AchClbDND3Tb5OT0l5kefMPw8fkXkIQB0Q6H6ZzCdE6_iuGWLGWoUYdm7chC6cwiflgUZ0T7zkNJEsOf4nY6lLh7oXwXBQ4aamUQlwLoUj0sFOriLOA7DLGywRoTglhXaZ02ROiphHDBq4jmzktz-v0zdRPr82ibIWiiR65yTYcLl2KpI8NNyI8HcrD3BhOJ1QqTD3PyqfvjIa1rSLYfQHqiDqbnu8ZvCNam6wXcc1EBvm69RUcEP97NjVjxKNUZzGhE0ulWHjxR_9c_zbJpTHY_tJ-iVd0pCQ6JK9uGK7TZHlMwQz7yZ6oJBkStoZehRMpMQg
+Accept: application/json
+
+###
+
+GET http://localhost:9100/v1/pay/health
+Accept: application/json
+
+###
