@@ -15,6 +15,10 @@ management:
     web:
       exposure:
         include: info, refresh
+logging:
+  file:
+    path: C://logs/resource
+  level: debug
 
 
 #  cloud:
