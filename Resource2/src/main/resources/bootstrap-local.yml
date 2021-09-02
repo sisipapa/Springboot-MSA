@@ -15,10 +15,6 @@ management:
     web:
       exposure:
         include: info, refresh
-logging:
-  file:
-    path: C://logs/resource2
-  level: debug
 
 #  cloud:
 #    config:
