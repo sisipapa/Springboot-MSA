@@ -1,6 +1,6 @@
 spring:
   profiles: local
-  message: Resource Service Local Server!!!!!=>수정1
+  message: Resource Service Local Server!!!!!=>수정2
 db:
   ip: '{cipher}AQDHSQY0vIaDMSgP4L4H9lNFiExK6tVMyly42lfCXOkqqubPQrgMLvL6NvpsM5s9hJVE+eF1UAadm0bo1ytl2zDIbBfMtfjPQJEEAjD0KV/Jb34Jro+ucG456U2OUH4cWImDk70gtdKOakM9jfRks5qGSvp7C2yRXjckYYSE0Z2oyJvNho4nmwTldKlX/+6jgjxGoXgFWF55q7RNwJhTrC8+e+fVGzDHjvxNh5AyRMAdCtp0MXRIJqoLH77GaneLW0O0nxxLnutovWPrXuz4SuaR+vzCRJqvntGyCifOcBQMjgo7udP2J9X/ABUbQFCyuceD4tlFnm+RDeeCpmftAevSw90z87AKL3gmcYXmsnOoVJItN12y0hppYUS/pnuYJyM='
   port: '{cipher}AQDjmrcRamyKIEBfcBqpg51cYqzzLEN98y6GKexor4UZe4N+jdOhAp8/GyNe5KP6Evd0cMfZo1LdOX31UkCK+Xp7voSc2C6a4nkFSGXcZTfXNj1UBWmYSxU18Oy/B7AQaoVvfIqq3wH3y8bZ0nbz34ObYdSr2VSmWNin9sIFObpDosTZxXDdeMJSpqwsvWBUjoGcriuqaXZbyMv4gfIksCQb1cqHGN1QVzG6WNipMkD3ZC/NwFV1RtG5g6jyJya0s9Az+1X809rmUv1HiY1whkIhj3rGfgPFtXAKvH96Hj+enkk93d0jxr8hhQumi+DQ5a85y6UN7HJmIn+slQ5LMcKn0bnC0zIIuipKIZCP8ggMSOytgfPiQya0Kk8bbIbfw3k='
